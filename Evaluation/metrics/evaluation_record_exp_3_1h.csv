@@ -1,0 +1,5 @@
+2ea4b7c6-2e14-4a13-948b-deed32003270,LATENCY,dasheng,single,1701081340,1701084982,10,1,/home/pengshijie/qitian/SiGraphEvaluation/metrics/wula_RR/exp_3/LATENCY/single/1701081340/af21-1h.csv
+96bdb359-6931-4c1b-b282-1bf1bfff3b97,PARAM,dasheng,single,1701085600,1701089241,10,1,/home/pengshijie/qitian/SiGraphEvaluation/metrics/wula_RR/exp_3/PARAM/single/1701085600/af21-1h.csv
+3f3c90ee-f1bd-4d66-a996-bb50334e0e3c,TIME,dasheng,single,1701089778,1701093420,10,1,/home/pengshijie/qitian/SiGraphEvaluation/metrics/wula_RR/exp_3/TIME/single/1701089778/af21-1h.csv
+fc75f080-94b2-4361-9b8a-93abbbcb201e,whole,dasheng,single,1701139726,1701143368,10,1,/home/pengshijie/qitian/SiGraphEvaluation/metrics/wula_RR/exp_3/whole/single/1701139726/af21-1h.csv
+da34e1cb-9ca7-4e2c-9af9-d2247fefa306,ME,dasheng,single,1701147123,1701150764,10,1,/home/pengshijie/qitian/SiGraphEvaluation/metrics/wula_RR/exp_3/ME/single/1701147123/af21-1h.csv

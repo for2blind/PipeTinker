@@ -1,0 +1,80 @@
+
+version: 1.0
+provider:
+    name: openfaas
+    gateway: http://serverless.siat.ac.cn:31112
+
+functions:
+    
+    wideresnet-9b-submod-3-latency-4:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./wideresnet-9b-submod-3
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-wideresnet-9b-submod-3-latency-4:1.0.1.qitian
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 3000m
+            memory: 64Gi
+        environment:
+            read_timeout: "2.5s"
+            write_timeout: "2.5s"
+            exec_timeout: "2.5s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    wideresnet-9b-submod-2-latency-4:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./wideresnet-9b-submod-2
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-wideresnet-9b-submod-2-latency-4:1.0.1.qitian
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 3000m
+            memory: 64Gi
+        environment:
+            read_timeout: "5.0s"
+            write_timeout: "5.0s"
+            exec_timeout: "5.0s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    wideresnet-9b-submod-1-latency-4:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./wideresnet-9b-submod-1
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-wideresnet-9b-submod-1-latency-4:1.0.1.qitian
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 2000m
+            memory: 64Gi
+        environment:
+            read_timeout: "7.5s"
+            write_timeout: "7.5s"
+            exec_timeout: "7.5s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    wideresnet-9b-submod-0-latency-4:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./wideresnet-9b-submod-0
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-wideresnet-9b-submod-0-latency-4:1.0.1.qitian
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "10.0s"
+            write_timeout: "10.0s"
+            exec_timeout: "10.0s"
+            debug: "false"
+            infer_device: "cuda"
+    

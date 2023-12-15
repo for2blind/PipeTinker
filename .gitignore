@@ -1,6 +1,10 @@
-*.i
-*.ii
-*.gpu
-*.ptx
-*.cubin
-*.fatbin
+**.pt
+**/build
+**/scheduler/old_verison
+**/__pycache__
+*.py[cod]
+**/.vscode
+**.bz2
+**.xz
+**/Azure/**/*.csv
+cdgp.code-workspace

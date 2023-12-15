@@ -1,0 +1,6 @@
+uuid,wrkname,scaling,scheduler,start_time,end_time,slo,collected,csv
+620f8ef4-f18a-43c1-8c20-8573e802833e,ME,none,single,1701368381,1701372022,10,0,metrics/wula/exp_6/ME/single/1701368381/
+60f06f51-ff76-4f96-a3c5-a5ff13b1ce8e,LATENCY,none,single,1701372400,1701376041,10,0,metrics/wula/exp_6/LATENCY/single/1701372400/
+8dfe4079-bc47-49b1-90bb-8f81ac938ab8,PARAM,none,single,1701376476,1701380117,10,0,metrics/wula/exp_6/PARAM/single/1701376476/
+eb7bedc4-c09a-47b8-adda-e32c1b6e8b5e,TIME,none,single,1701380489,1701384130,10,0,metrics/wula/exp_6/TIME/single/1701380489/
+d1820ca4-bafc-4707-9ebb-157c08877a8b,whole,none,single,1701384702,1701388353,10,0,metrics/wula/exp_6/whole/single/1701384702/
